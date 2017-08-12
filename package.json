@@ -1,0 +1,21 @@
+{
+  "name": "booktastersapi",
+  "version": "1.0.0",
+  "description": "API for listing books off of google books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "google-books-search": "^0.3.1",
+    "mongoose": "^4.11.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
